@@ -220,10 +220,15 @@ main {
 }
 
 .post-preview .post-img {
+  margin-top: 5px;
   width: 100px;
-  background-size: contain;
+  height: 85px;
+  background-size: cover;
+  /* background-size: contain; */
   background-repeat: no-repeat;
   background-position: center;
+  border-radius: 5px;
+  border: 1px solid #ddd;
 }
 
 .post-preview .post-info-center {

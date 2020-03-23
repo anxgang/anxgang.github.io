@@ -14,17 +14,17 @@
   <!-- if page has tags, then add tags to keyword -->
   
   
-  <meta name="keywords" content="rails,ruby,javascript,css,機器學習,tensorflow,mnist,Python,">
+  <meta name="keywords" content="rails,ruby,javascript,css,Rails,">
   <!-- page.description has higher priority -->
-  <meta name="description" content="TensorFlow 入門系列文章，mnist手寫數字識別(網絡搭建)。">
+  <meta name="description" content="Rails 初學筆記">
   <link rel="shortcut icon" href="/img/icon.png">
   <title>
     
-    TensorFlow入門(一) - mnist手寫數字識別(網絡搭建) | Anxgang
+    Rails 初學筆記 (一) - 從零開始建立網站 | Anxgang
     
   </title>
 
-  <link rel="canonical" href="/post/2020/hello.html">
+  <link rel="canonical" href="/post/series/S02_rails/C01_rails_starter/rails_starter_01.html">
   <link rel="stylesheet" href="/css/reset.css">
   <link rel="stylesheet" href="/css/layout.css">
   <link rel="stylesheet" href="/css/markdown.css">
@@ -59,21 +59,6 @@
   </script>
   <!-- google ad -->
   
-  <script>
-    window.addEventListener('load', function () {
-      globalAddScript("https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js", "", function (e) {
-        if (window.localStorage.getItem('gkt_marker')) {
-          var rec = document.querySelector('.gkt-rec-links');
-          rec && (rec.style.display = 'none');
-        }
-      });
-    });
-    (adsbygoogle = window.adsbygoogle || []).push({
-      google_ad_client: "ca-pub-0131136203814757",
-      enable_page_level_ads: true
-    });
-  </script>
-  
   
   <script id="dsq-count-scr" src="//anxgang-github-io.disqus.com/count.js" async></script>
   
@@ -90,9 +75,9 @@
             <ul>
                 <li><a class="hidden-xs" href="/">首頁</a></li>
                 <li><a href="/series/">主題</a></li>
-                <li><a href="/archives/">歸檔</a></li>
+                <li><a href="/archives/">列表</a></li>
                 <li><a href="/post/link.html">連結</a></li>
-                <li><a href="/post/about.html">留言</a></li>
+                <li><a href="/post/about.html">關於</a></li>
             </ul>
         </nav>
     </div>
@@ -102,8 +87,39 @@
             <ul>
                 
                 
+                <li class="gkt-cate-name float-left ">
+                    <a class="float-left" href="/post/series/S01_ubuntu/C01_ubuntu_starter/ubuntu_starter_01.html">Ubuntu ▾</a>
+                    
+                    <ul class="gkt-sub-cate">
+                        
+                        <li class="gkt-sub-cate-name "><a class="float-left"
+                                href="/post/series/S01_ubuntu/C01_ubuntu_starter/ubuntu_starter_01.html">Ubuntu 初學筆記</a></li>
+                        
+                        <li class="gkt-sub-cate-name "><a class="float-left"
+                                href="/post/series/S01_ubuntu/C02_ubuntu_realworld/ubuntu_realworld_01.html">Ubuntu 實戰筆記</a></li>
+                        
+                        <li class="gkt-sub-cate-name "><a class="float-left"
+                                href="/post/series/S01_ubuntu/C03_ubuntu_packages/ubuntu_packages_01.html">Ubuntu Package 應用筆記</a></li>
+                        
+                    </ul>
+                    
+                </li>
+                
                 <li class="gkt-cate-name float-left active">
-                    <a class="float-left" href="/post/2020/hello.html">TensorFlow</a>
+                    <a class="float-left" href="/post/series/S02_rails/C01_rails_starter/rails_starter_01.html">Rails ▾</a>
+                    
+                    <ul class="gkt-sub-cate">
+                        
+                        <li class="gkt-sub-cate-name active"><a class="float-left"
+                                href="/post/series/S02_rails/C01_rails_starter/rails_starter_01.html">Rails 初學筆記</a></li>
+                        
+                        <li class="gkt-sub-cate-name "><a class="float-left"
+                                href="/post/series/S02_rails/C02_rails_realworld/rails_realworld_01.html">Rails 實戰筆記</a></li>
+                        
+                        <li class="gkt-sub-cate-name "><a class="float-left"
+                                href="/post/series/S02_rails/C03_rails_gems/rails_gems_01.html">Rails Gem 應用筆記</a></li>
+                        
+                    </ul>
                     
                 </li>
                 
@@ -144,41 +160,33 @@
 <div class="float-left post-container box-shadow">
     <div class="u-arrow-wrapper hidden-xs">
         
-        <a class="float-left" href="/post/about.html"><i class="u-arrow-left"></i></a>
+        <a class="float-left" href="/post/series/S01_ubuntu/C03_ubuntu_packages/ubuntu_packages_01.html"><i class="u-arrow-left"></i></a>
         
         
-        <a class="float-right" href="/post/2020/hello-world.html"><i class="u-arrow-right"></i></a>
+        <a class="float-right" href="/post/series/S02_rails/C02_rails_realworld/rails_realworld_01.html"><i class="u-arrow-right"></i></a>
         
     </div>
     <article class="col-xs-12">
-        <h1> TensorFlow入門(一) - mnist手寫數字識別(網絡搭建) </h1>
+        <h1> Rails 初學筆記 (一) - 從零開始建立網站 </h1>
 
         
 
         
         <div class="hidden-lg hidden-md series_links">
-            <p> <strong> TensorFlow教程系列文章链接：</strong></p>
+            <p> <strong> Rails 初學筆記系列文章連結：</strong></p>
             <ul>
                 
                 <li>
-                    <a href="/post/2020/hello.html">TensorFlow入門(一) - mnist手寫數字識別(網絡搭建)</a>
-                    <span class="post-item-date">(Dec 9, 2017)</span>
+                    <a href="/post/series/S02_rails/C01_rails_starter/rails_starter_01.html">Rails 初學筆記 (一) - 從零開始建立網站</a>
+                    <span class="post-item-date">(Mar 22, 2020)</span>
                 </li>
                 
             </ul>
         </div>
         
         
-        <blockquote>
-            <p>原始碼已上傳到 Github：
-                <a href="https://github.com/geektutu/tensorflow-tutorial-samples" target="_blank" rel="noopener">
-                     tensorflow-tutorial-samples
-                </a>
-            </p>
-        </blockquote>
         
-        
-        <p>這篇文章是整個 TensorFlow入門-mnist手寫數字識別系列的第一篇，主要介紹了如何從0開始用tensorflow搭建最簡單的網絡進行訓練。</p>
+        <p>這篇文章主要介紹如何從零開始使用 rails 搭建最簡單的網站。</p>
 <p>··· 省略</p>
 
         <script src="/js/qrious.min.js"></script>
@@ -189,14 +197,14 @@
             <p>
                 <span>主題: </span>
                 
-                <a href="/series/#TensorFlow教程">
-                    <code key="TensorFlow教程" class="post-label">TensorFlow教程</code>
+                <a href="/series/#Rails 初學筆記">
+                    <code key="Rails 初學筆記" class="post-label">Rails 初學筆記</code>
                 </a>
                 
             </p>
             
             <p>
-                <span style="color: gray">發表時間 2017-12-09，最後修改時間 2020-03-22。</span>
+                <span style="color: gray">發表時間 2020-03-22，最後修改時間 2020-03-23。</span>
             </p>
             <!-- 文章末尾的提示 start -->
             
@@ -208,10 +216,10 @@
         <hr />
         <p name="pagination" style="font-size: 1.2em">
     
-    <a class="float-left" href="/post/about.html">« 關於我</a>
+    <a class="float-left" href="/post/series/S01_ubuntu/C03_ubuntu_packages/ubuntu_packages_01.html">« Ubuntu Package 應用筆記 (一) - 系統資訊監控 (htop)</a>
     
     
-    <a class="float-right" href="/post/2020/hello-world.html">Hello World »</a>
+    <a class="float-right" href="/post/series/S02_rails/C02_rails_realworld/rails_realworld_01.html">Rails 實戰筆記 (一) - 實戰應用範例說明 »</a>
     
 </p>
     </article>
@@ -224,39 +232,8 @@
         
         <div class="post-preview">
     <div class="post-img" 
-        style="background-image: url('/undefined'); cursor: pointer" 
-        onClick="location.href='/post/2020/hello-world.html'"></div>
-    <div class="post-info">
-        <div class="post-info-center">
-            <div class="hidden-xs">
-                
-                
-            </div>
-            <a href="/post/2020/hello-world.html" class="title">
-                Hello World
-            </a>
-            <p class="text-gray">
-                <small>
-                    <span>發表於 2020-03-21，</span>
-                    <span class="hidden-xs">全文838字，</span>
-                    <span>約3分鐘看完</span>
-                    
-                    <span>
-                        <a href="/post/2020/hello-world.html#disqus_thread">
-                            留言
-                        </a>
-                    </span>
-                    
-                </small>
-            </p>
-        </div>
-    </div>
-</div>
-        
-        <div class="post-preview">
-    <div class="post-img" 
-        style="background-image: url('/post/tensorflow-mnist-simplest/xxx.png'); cursor: pointer" 
-        onClick="location.href='/post/2020/hello.html'"></div>
+        style="background-image: url('/post/rails_realworld.png'); cursor: pointer" 
+        onClick="location.href='/post/series/S02_rails/C02_rails_realworld/rails_realworld_01.html'"></div>
     <div class="post-info">
         <div class="post-info-center">
             <div class="hidden-xs">
@@ -264,35 +241,23 @@
                 
                 <!-- <span>/</span> -->
                 
-                <a class="text-gray" href="/tags/#機器學習"
-                    title="機器學習">機器學習</a> 
-                <!-- <span>/</span> --> 
-                
-                <a class="text-gray" href="/tags/#tensorflow"
-                    title="tensorflow">tensorflow</a> 
-                <!-- <span>/</span> --> 
-                
-                <a class="text-gray" href="/tags/#mnist"
-                    title="mnist">mnist</a> 
-                <!-- <span>/</span> --> 
-                
-                <a class="text-gray" href="/tags/#Python"
-                    title="Python">Python</a> 
+                <a class="text-gray" href="/tags/#Rails"
+                    title="Rails">Rails</a> 
                 <!-- <span>/</span> --> 
                 
                 
             </div>
-            <a href="/post/2020/hello.html" class="title">
-                TensorFlow入門(一) - mnist手寫數字識別(網絡搭建)
+            <a href="/post/series/S02_rails/C02_rails_realworld/rails_realworld_01.html" class="title">
+                Rails 實戰筆記 (一) - 實戰應用範例說明
             </a>
             <p class="text-gray">
                 <small>
-                    <span>發表於 2017-12-09，</span>
-                    <span class="hidden-xs">全文416字，</span>
-                    <span>約2分鐘看完</span>
+                    <span>發表於 2020-03-22，</span>
+                    <span class="hidden-xs">全文286字，</span>
+                    <span>約1分鐘看完</span>
                     
                     <span>
-                        <a href="/post/2020/hello.html#disqus_thread">
+                        <a href="/post/series/S02_rails/C02_rails_realworld/rails_realworld_01.html#disqus_thread">
                             留言
                         </a>
                     </span>
@@ -305,25 +270,70 @@
         
         <div class="post-preview">
     <div class="post-img" 
-        style="background-image: url('/undefined'); cursor: pointer" 
-        onClick="location.href='/post/link.html'"></div>
+        style="background-image: url('/post/rails_starter.jpg'); cursor: pointer" 
+        onClick="location.href='/post/series/S02_rails/C01_rails_starter/rails_starter_01.html'"></div>
     <div class="post-info">
         <div class="post-info-center">
             <div class="hidden-xs">
                 
                 
+                <!-- <span>/</span> -->
+                
+                <a class="text-gray" href="/tags/#Rails"
+                    title="Rails">Rails</a> 
+                <!-- <span>/</span> --> 
+                
+                
             </div>
-            <a href="/post/link.html" class="title">
-                連結
+            <a href="/post/series/S02_rails/C01_rails_starter/rails_starter_01.html" class="title">
+                Rails 初學筆記 (一) - 從零開始建立網站
             </a>
             <p class="text-gray">
                 <small>
-                    <span>發表於 2017-07-03，</span>
-                    <span class="hidden-xs">全文81字，</span>
+                    <span>發表於 2020-03-22，</span>
+                    <span class="hidden-xs">全文290字，</span>
                     <span>約1分鐘看完</span>
                     
                     <span>
-                        <a href="/post/link.html#disqus_thread">
+                        <a href="/post/series/S02_rails/C01_rails_starter/rails_starter_01.html#disqus_thread">
+                            留言
+                        </a>
+                    </span>
+                    
+                </small>
+            </p>
+        </div>
+    </div>
+</div>
+        
+        <div class="post-preview">
+    <div class="post-img" 
+        style="background-image: url('/post/default.png'); cursor: pointer" 
+        onClick="location.href='/post/series/S01_ubuntu/C02_ubuntu_realworld/ubuntu_realworld_01.html'"></div>
+    <div class="post-info">
+        <div class="post-info-center">
+            <div class="hidden-xs">
+                
+                
+                <!-- <span>/</span> -->
+                
+                <a class="text-gray" href="/tags/#Ubuntu"
+                    title="Ubuntu">Ubuntu</a> 
+                <!-- <span>/</span> --> 
+                
+                
+            </div>
+            <a href="/post/series/S01_ubuntu/C02_ubuntu_realworld/ubuntu_realworld_01.html" class="title">
+                Ubuntu 實戰筆記 (一) - 實戰應用範例說明
+            </a>
+            <p class="text-gray">
+                <small>
+                    <span>發表於 2020-03-21，</span>
+                    <span class="hidden-xs">全文284字，</span>
+                    <span>約1分鐘看完</span>
+                    
+                    <span>
+                        <a href="/post/series/S01_ubuntu/C02_ubuntu_realworld/ubuntu_realworld_01.html#disqus_thread">
                             留言
                         </a>
                     </span>
@@ -357,17 +367,14 @@
 </style>
 <div id="featured-tag">
     
-    <a class="post-tag-item" href="/tags/#機器學習" title="機器學習"
-        rel="1">機器學習 <small style="color: gray">1</small> </a>
+    <a class="post-tag-item" href="/tags/#其他" title="其他"
+        rel="2">其他 <small style="color: gray">2</small> </a>
     
-    <a class="post-tag-item" href="/tags/#tensorflow" title="tensorflow"
-        rel="1">tensorflow <small style="color: gray">1</small> </a>
+    <a class="post-tag-item" href="/tags/#Ubuntu" title="Ubuntu"
+        rel="3">Ubuntu <small style="color: gray">3</small> </a>
     
-    <a class="post-tag-item" href="/tags/#mnist" title="mnist"
-        rel="1">mnist <small style="color: gray">1</small> </a>
-    
-    <a class="post-tag-item" href="/tags/#Python" title="Python"
-        rel="1">Python <small style="color: gray">1</small> </a>
+    <a class="post-tag-item" href="/tags/#Rails" title="Rails"
+        rel="3">Rails <small style="color: gray">3</small> </a>
     
 </div>
     </div>
@@ -451,13 +458,13 @@
 <div class="gkt-summary">
     <nav>
         <a href="/" class="col-xs-4">
-            <number class="number">4</number><span>文章</span>
+            <number class="number">8</number><span>文章</span>
         </a>
         <a href="/series" class="col-xs-4 middle">
-            <number class="number">1</number><span>主題</span>
+            <number class="number">6</number><span>主題</span>
         </a>
         <a href="/tags" class="col-xs-4">
-            <number class="number">4</number><span>標籤</span>
+            <number class="number">3</number><span>標籤</span>
         </a>
     </nav>
 
@@ -472,12 +479,12 @@
         
         
         <section class="gkt-sidebar-content box-shadow">
-            <strong>TensorFlow教程</strong>
+            <strong>Rails 初學筆記</strong>
             <ul>
                 
                 <li>
-                    <a href="/post/2020/hello.html"
-                        class="gkt-sidebar-active">mnist手寫數字識別(網絡搭建)</a>
+                    <a href="/post/series/S02_rails/C01_rails_starter/rails_starter_01.html"
+                        class="gkt-sidebar-active">從零開始建立網站</a>
                     
                     <!-- Table of Contents -->
 <div id="sidebar-toc">
@@ -532,15 +539,15 @@
             <ul>
                 
                 <li>
-                    <a href="/post/2020/hello-world.html">Hello World</a>
+                    <a href="/post/series/S02_rails/C03_rails_gems/rails_gems_01.html">登入管理 (Devise)</a>
                 </li>
                 
                 <li>
-                    <a href="/post/2020/hello.html">mnist手寫數字識別(網絡搭建)</a>
+                    <a href="/post/series/S02_rails/C02_rails_realworld/rails_realworld_01.html">實戰應用範例說明</a>
                 </li>
                 
                 <li>
-                    <a href="/post/link.html">連結</a>
+                    <a href="/post/series/S02_rails/C01_rails_starter/rails_starter_01.html">從零開始建立網站</a>
                 </li>
                 
             </ul>

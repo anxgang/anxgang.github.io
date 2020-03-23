@@ -2,49 +2,77 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://blog.anxgang.com/post/link.html</loc>
+    <loc>https://anxgang.github.io/post/about.html</loc>
     
-    <lastmod>2020-03-22T05:45:22.523Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.anxgang.com/post/about.html</loc>
-    
-    <lastmod>2020-03-22T05:45:19.863Z</lastmod>
+    <lastmod>2020-03-23T06:01:12.585Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://blog.anxgang.com/post/2020/hello.html</loc>
+    <loc>https://anxgang.github.io/post/link.html</loc>
     
-    <lastmod>2020-03-22T03:38:46.175Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.anxgang.com/post/2020/hello-world.html</loc>
-    
-    <lastmod>2020-03-22T03:18:53.499Z</lastmod>
+    <lastmod>2020-03-23T03:53:07.921Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://blog.anxgang.com/series/index.html</loc>
+    <loc>https://anxgang.github.io/post/series/S02_rails/C03_rails_gems/rails_gems_01.html</loc>
+    
+    <lastmod>2020-03-23T02:39:09.537Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://anxgang.github.io/post/series/S01_ubuntu/C03_ubuntu_packages/ubuntu_packages_01.html</loc>
+    
+    <lastmod>2020-03-23T02:29:03.692Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://anxgang.github.io/post/series/S01_ubuntu/C02_ubuntu_realworld/ubuntu_realworld_01.html</loc>
+    
+    <lastmod>2020-03-23T02:29:00.689Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://anxgang.github.io/post/series/S02_rails/C02_rails_realworld/rails_realworld_01.html</loc>
+    
+    <lastmod>2020-03-23T02:28:57.505Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://anxgang.github.io/post/series/S01_ubuntu/C01_ubuntu_starter/ubuntu_starter_01.html</loc>
+    
+    <lastmod>2020-03-23T02:28:56.296Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://anxgang.github.io/post/series/S02_rails/C01_rails_starter/rails_starter_01.html</loc>
+    
+    <lastmod>2020-03-23T02:28:39.345Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://anxgang.github.io/series/index.html</loc>
     
     <lastmod>2020-03-22T02:24:21.646Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://blog.anxgang.com/tags/index.html</loc>
+    <loc>https://anxgang.github.io/tags/index.html</loc>
     
     <lastmod>2020-03-22T02:23:36.696Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://blog.anxgang.com/archives/index.html</loc>
+    <loc>https://anxgang.github.io/archives/index.html</loc>
     
     <lastmod>2020-03-22T02:22:18.528Z</lastmod>
     

@@ -5,9 +5,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="https://blog.anxgang.com/"/>
-  <updated>2020-03-22T03:18:53.499Z</updated>
-  <id>https://blog.anxgang.com/</id>
+  <link href="https://anxgang.github.io/"/>
+  <updated>2020-03-23T02:39:09.537Z</updated>
+  <id>https://anxgang.github.io/</id>
   
   <author>
     <name>anxgang</name>
@@ -17,78 +17,143 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Hello World</title>
-    <link href="https://blog.anxgang.com/post/2020/hello-world.html"/>
-    <id>https://blog.anxgang.com/post/2020/hello-world.html</id>
-    <published>2020-03-21T14:23:24.761Z</published>
-    <updated>2020-03-22T03:18:53.499Z</updated>
+    <title>Rails Gem 應用筆記 (一) - 登入管理 (Devise)</title>
+    <link href="https://anxgang.github.io/post/series/S02_rails/C03_rails_gems/rails_gems_01.html"/>
+    <id>https://anxgang.github.io/post/series/S02_rails/C03_rails_gems/rails_gems_01.html</id>
+    <published>2020-03-22T02:00:03.000Z</published>
+    <updated>2020-03-23T02:39:09.537Z</updated>
     
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    <content type="html"><![CDATA[<p>這篇文章主要介紹如何在 Rails 登入管理 (Devise)。</p><p>··· 省略</p>]]></content>
     
     <summary type="html">
     
-      
-      
-        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
-      
+      Rails Gem 應用筆記
     
     </summary>
     
+      <category term="Rails Gem 應用筆記" scheme="https://anxgang.github.io/categories/Rails-Gem-%E6%87%89%E7%94%A8%E7%AD%86%E8%A8%98/"/>
+    
+    
+      <category term="Rails" scheme="https://anxgang.github.io/tags/Rails/"/>
     
   </entry>
   
   <entry>
-    <title>TensorFlow入門(一) - mnist手寫數字識別(網絡搭建)</title>
-    <link href="https://blog.anxgang.com/post/2020/hello.html"/>
-    <id>https://blog.anxgang.com/post/2020/hello.html</id>
-    <published>2017-12-09T03:51:24.000Z</published>
-    <updated>2020-03-22T03:38:46.175Z</updated>
+    <title>Rails 實戰筆記 (一) - 實戰應用範例說明</title>
+    <link href="https://anxgang.github.io/post/series/S02_rails/C02_rails_realworld/rails_realworld_01.html"/>
+    <id>https://anxgang.github.io/post/series/S02_rails/C02_rails_realworld/rails_realworld_01.html</id>
+    <published>2020-03-22T02:00:02.000Z</published>
+    <updated>2020-03-23T02:28:57.505Z</updated>
     
-    <content type="html"><![CDATA[<p>這篇文章是整個 TensorFlow入門-mnist手寫數字識別系列的第一篇，主要介紹了如何從0開始用tensorflow搭建最簡單的網絡進行訓練。</p><p>··· 省略</p>]]></content>
+    <content type="html"><![CDATA[<p>這篇文章主要介紹 rails 實戰經驗搭配範例說明。</p><p>··· 省略</p>]]></content>
     
     <summary type="html">
     
-      TensorFlow 入門系列文章，mnist手寫數字識別(網絡搭建)。
+      Rails 實戰筆記
     
     </summary>
     
-      <category term="TensorFlow教程" scheme="https://blog.anxgang.com/categories/TensorFlow%E6%95%99%E7%A8%8B/"/>
+      <category term="Rails 實戰筆記" scheme="https://anxgang.github.io/categories/Rails-%E5%AF%A6%E6%88%B0%E7%AD%86%E8%A8%98/"/>
     
     
-      <category term="機器學習" scheme="https://blog.anxgang.com/tags/%E6%A9%9F%E5%99%A8%E5%AD%B8%E7%BF%92/"/>
-    
-      <category term="tensorflow" scheme="https://blog.anxgang.com/tags/tensorflow/"/>
-    
-      <category term="mnist" scheme="https://blog.anxgang.com/tags/mnist/"/>
-    
-      <category term="Python" scheme="https://blog.anxgang.com/tags/Python/"/>
+      <category term="Rails" scheme="https://anxgang.github.io/tags/Rails/"/>
     
   </entry>
   
   <entry>
-    <title>關於我</title>
-    <link href="https://blog.anxgang.com/post/about.html"/>
-    <id>https://blog.anxgang.com/post/about.html</id>
-    <published>2017-07-03T03:51:24.000Z</published>
-    <updated>2020-03-22T05:45:19.863Z</updated>
+    <title>Rails 初學筆記 (一) - 從零開始建立網站</title>
+    <link href="https://anxgang.github.io/post/series/S02_rails/C01_rails_starter/rails_starter_01.html"/>
+    <id>https://anxgang.github.io/post/series/S02_rails/C01_rails_starter/rails_starter_01.html</id>
+    <published>2020-03-22T02:00:01.000Z</published>
+    <updated>2020-03-23T02:28:39.345Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="個人介紹"><a href="#個人介紹" class="headerlink" title="個人介紹"></a>個人介紹</h2><p>··· 省略</p>]]></content>
+    <content type="html"><![CDATA[<p>這篇文章主要介紹如何從零開始使用 rails 搭建最簡單的網站。</p><p>··· 省略</p>]]></content>
     
     <summary type="html">
     
-      關於我
+      Rails 初學筆記
     
     </summary>
     
+      <category term="Rails 初學筆記" scheme="https://anxgang.github.io/categories/Rails-%E5%88%9D%E5%AD%B8%E7%AD%86%E8%A8%98/"/>
+    
+    
+      <category term="Rails" scheme="https://anxgang.github.io/tags/Rails/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Ubuntu Package 應用筆記 (一) - 系統資訊監控 (htop)</title>
+    <link href="https://anxgang.github.io/post/series/S01_ubuntu/C03_ubuntu_packages/ubuntu_packages_01.html"/>
+    <id>https://anxgang.github.io/post/series/S01_ubuntu/C03_ubuntu_packages/ubuntu_packages_01.html</id>
+    <published>2020-03-21T02:00:03.000Z</published>
+    <updated>2020-03-23T02:29:03.692Z</updated>
+    
+    <content type="html"><![CDATA[<p>這篇文章主要介紹如何在 Rails 登入管理 (Devise)。</p><p>··· 省略</p>]]></content>
+    
+    <summary type="html">
+    
+      Rails Ubuntu Package 應用筆記
+    
+    </summary>
+    
+      <category term="Ubuntu Package 應用筆記" scheme="https://anxgang.github.io/categories/Ubuntu-Package-%E6%87%89%E7%94%A8%E7%AD%86%E8%A8%98/"/>
+    
+    
+      <category term="Ubuntu" scheme="https://anxgang.github.io/tags/Ubuntu/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Ubuntu 實戰筆記 (一) - 實戰應用範例說明</title>
+    <link href="https://anxgang.github.io/post/series/S01_ubuntu/C02_ubuntu_realworld/ubuntu_realworld_01.html"/>
+    <id>https://anxgang.github.io/post/series/S01_ubuntu/C02_ubuntu_realworld/ubuntu_realworld_01.html</id>
+    <published>2020-03-21T02:00:02.000Z</published>
+    <updated>2020-03-23T02:29:00.689Z</updated>
+    
+    <content type="html"><![CDATA[<p>這篇文章主要介紹 Ubuntu 實戰經驗搭配範例說明。</p><p>··· 省略</p>]]></content>
+    
+    <summary type="html">
+    
+      Ubuntu 實戰筆記
+    
+    </summary>
+    
+      <category term="Ubuntu 實戰筆記" scheme="https://anxgang.github.io/categories/Ubuntu-%E5%AF%A6%E6%88%B0%E7%AD%86%E8%A8%98/"/>
+    
+    
+      <category term="Ubuntu" scheme="https://anxgang.github.io/tags/Ubuntu/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Ubuntu 初學筆記 (一) - 開始使用 Ubuntu</title>
+    <link href="https://anxgang.github.io/post/series/S01_ubuntu/C01_ubuntu_starter/ubuntu_starter_01.html"/>
+    <id>https://anxgang.github.io/post/series/S01_ubuntu/C01_ubuntu_starter/ubuntu_starter_01.html</id>
+    <published>2020-03-21T02:00:01.000Z</published>
+    <updated>2020-03-23T02:28:56.296Z</updated>
+    
+    <content type="html"><![CDATA[<p>這篇文章主要介紹如何從零開始使用 Ubuntu。</p><p>··· 省略</p>]]></content>
+    
+    <summary type="html">
+    
+      Ubuntu 初學筆記
+    
+    </summary>
+    
+      <category term="Ubuntu 初學筆記" scheme="https://anxgang.github.io/categories/Ubuntu-%E5%88%9D%E5%AD%B8%E7%AD%86%E8%A8%98/"/>
+    
+    
+      <category term="Ubuntu" scheme="https://anxgang.github.io/tags/Ubuntu/"/>
     
   </entry>
   
   <entry>
     <title>連結</title>
-    <link href="https://blog.anxgang.com/post/link.html"/>
-    <id>https://blog.anxgang.com/post/link.html</id>
-    <published>2017-07-03T03:51:24.000Z</published>
-    <updated>2020-03-22T05:45:22.523Z</updated>
+    <link href="https://anxgang.github.io/post/link.html"/>
+    <id>https://anxgang.github.io/post/link.html</id>
+    <published>2020-02-29T16:00:01.000Z</published>
+    <updated>2020-03-23T03:53:07.921Z</updated>
     
     <content type="html"><![CDATA[<h2 id="連結"><a href="#連結" class="headerlink" title="連結"></a>連結</h2><p>··· 省略</p>]]></content>
     
@@ -98,6 +163,28 @@
     
     </summary>
     
+    
+      <category term="其他" scheme="https://anxgang.github.io/tags/%E5%85%B6%E4%BB%96/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>關於</title>
+    <link href="https://anxgang.github.io/post/about.html"/>
+    <id>https://anxgang.github.io/post/about.html</id>
+    <published>2020-02-29T16:00:00.000Z</published>
+    <updated>2020-03-23T06:01:12.585Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="個人介紹"><a href="#個人介紹" class="headerlink" title="個人介紹"></a>個人介紹</h2><p>··· 省略</p>]]></content>
+    
+    <summary type="html">
+    
+      關於
+    
+    </summary>
+    
+    
+      <category term="其他" scheme="https://anxgang.github.io/tags/%E5%85%B6%E4%BB%96/"/>
     
   </entry>
   
