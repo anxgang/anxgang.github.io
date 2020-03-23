@@ -65,9 +65,9 @@
     <link href="https://anxgang.github.io/post/series/S02_rails/C01_rails_starter/rails_starter_01.html"/>
     <id>https://anxgang.github.io/post/series/S02_rails/C01_rails_starter/rails_starter_01.html</id>
     <published>2020-03-22T02:00:01.000Z</published>
-    <updated>2020-03-23T02:28:39.345Z</updated>
+    <updated>2020-03-23T08:31:46.235Z</updated>
     
-    <content type="html"><![CDATA[<p>這篇文章主要介紹如何從零開始使用 rails 搭建最簡單的網站。</p><p>··· 省略</p>]]></content>
+    <content type="html"><![CDATA[<h2 id="hello"><a href="#hello" class="headerlink" title="hello"></a>hello</h2><p>這篇文章主要介紹如何從零開始使用 rails 搭建最簡單的網站。</p><h2 id="hello-2"><a href="#hello-2" class="headerlink" title="hello 2"></a>hello 2</h2><h3 id="hello-2-1"><a href="#hello-2-1" class="headerlink" title="hello 2-1"></a>hello 2-1</h3><h3 id="hello-2-2"><a href="#hello-2-2" class="headerlink" title="hello 2-2"></a>hello 2-2</h3><p>··· 省略</p>]]></content>
     
     <summary type="html">
     
@@ -83,79 +83,13 @@
   </entry>
   
   <entry>
-    <title>Ubuntu Package 應用筆記 (一) - 系統資訊監控 (htop)</title>
-    <link href="https://anxgang.github.io/post/series/S01_ubuntu/C03_ubuntu_packages/ubuntu_packages_01.html"/>
-    <id>https://anxgang.github.io/post/series/S01_ubuntu/C03_ubuntu_packages/ubuntu_packages_01.html</id>
-    <published>2020-03-21T02:00:03.000Z</published>
-    <updated>2020-03-23T02:29:03.692Z</updated>
-    
-    <content type="html"><![CDATA[<p>這篇文章主要介紹如何在 Rails 登入管理 (Devise)。</p><p>··· 省略</p>]]></content>
-    
-    <summary type="html">
-    
-      Rails Ubuntu Package 應用筆記
-    
-    </summary>
-    
-      <category term="Ubuntu Package 應用筆記" scheme="https://anxgang.github.io/categories/Ubuntu-Package-%E6%87%89%E7%94%A8%E7%AD%86%E8%A8%98/"/>
-    
-    
-      <category term="Ubuntu" scheme="https://anxgang.github.io/tags/Ubuntu/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Ubuntu 實戰筆記 (一) - 實戰應用範例說明</title>
-    <link href="https://anxgang.github.io/post/series/S01_ubuntu/C02_ubuntu_realworld/ubuntu_realworld_01.html"/>
-    <id>https://anxgang.github.io/post/series/S01_ubuntu/C02_ubuntu_realworld/ubuntu_realworld_01.html</id>
-    <published>2020-03-21T02:00:02.000Z</published>
-    <updated>2020-03-23T02:29:00.689Z</updated>
-    
-    <content type="html"><![CDATA[<p>這篇文章主要介紹 Ubuntu 實戰經驗搭配範例說明。</p><p>··· 省略</p>]]></content>
-    
-    <summary type="html">
-    
-      Ubuntu 實戰筆記
-    
-    </summary>
-    
-      <category term="Ubuntu 實戰筆記" scheme="https://anxgang.github.io/categories/Ubuntu-%E5%AF%A6%E6%88%B0%E7%AD%86%E8%A8%98/"/>
-    
-    
-      <category term="Ubuntu" scheme="https://anxgang.github.io/tags/Ubuntu/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Ubuntu 初學筆記 (一) - 開始使用 Ubuntu</title>
-    <link href="https://anxgang.github.io/post/series/S01_ubuntu/C01_ubuntu_starter/ubuntu_starter_01.html"/>
-    <id>https://anxgang.github.io/post/series/S01_ubuntu/C01_ubuntu_starter/ubuntu_starter_01.html</id>
-    <published>2020-03-21T02:00:01.000Z</published>
-    <updated>2020-03-23T02:28:56.296Z</updated>
-    
-    <content type="html"><![CDATA[<p>這篇文章主要介紹如何從零開始使用 Ubuntu。</p><p>··· 省略</p>]]></content>
-    
-    <summary type="html">
-    
-      Ubuntu 初學筆記
-    
-    </summary>
-    
-      <category term="Ubuntu 初學筆記" scheme="https://anxgang.github.io/categories/Ubuntu-%E5%88%9D%E5%AD%B8%E7%AD%86%E8%A8%98/"/>
-    
-    
-      <category term="Ubuntu" scheme="https://anxgang.github.io/tags/Ubuntu/"/>
-    
-  </entry>
-  
-  <entry>
     <title>連結</title>
     <link href="https://anxgang.github.io/post/link.html"/>
     <id>https://anxgang.github.io/post/link.html</id>
     <published>2020-02-29T16:00:01.000Z</published>
-    <updated>2020-03-23T03:53:07.921Z</updated>
+    <updated>2020-03-23T07:32:33.669Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="連結"><a href="#連結" class="headerlink" title="連結"></a>連結</h2><p>··· 省略</p>]]></content>
+    <content type="html"><![CDATA[<h2 id="Rails"><a href="#Rails" class="headerlink" title="Rails"></a>Rails</h2><ul><li><a href="https://guides.rubyonrails.org/" target="_blank" rel="noopener">Rails官方</a></li><li><a href="https://5xruby.tw/posts/" target="_blank" rel="noopener">5xRuby 部落格</a></li><li><a href="https://ihower.tw/rails/index.html" target="_blank" rel="noopener">Rails 實戰聖經</a></li><li><a href="https://gorails.com/setup" target="_blank" rel="noopener">GoRails</a><ul><li><a href="https://gorails.com/setup" target="_blank" rel="noopener">GoRails Mac 開發環境建置</a></li><li><a href="https://gorails.com/deploy/ubuntu/18.04" target="_blank" rel="noopener">GoRails Ubuntu 生產環境建置</a></li></ul></li><li><a href="https://fullstack.qzy.camp/" target="_blank" rel="noopener">全棧營</a></li></ul><h2 id="Vue"><a href="#Vue" class="headerlink" title="Vue"></a>Vue</h2><ul><li><a href="https://vuejs.org/" target="_blank" rel="noopener">Vue官方</a></li><li><a href="https://www.vuemastery.com/" target="_blank" rel="noopener">Vue Mastery</a></li></ul>]]></content>
     
     <summary type="html">
     
@@ -173,9 +107,9 @@
     <link href="https://anxgang.github.io/post/about.html"/>
     <id>https://anxgang.github.io/post/about.html</id>
     <published>2020-02-29T16:00:00.000Z</published>
-    <updated>2020-03-23T06:01:12.585Z</updated>
+    <updated>2020-03-23T08:51:24.645Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="個人介紹"><a href="#個人介紹" class="headerlink" title="個人介紹"></a>個人介紹</h2><p>··· 省略</p>]]></content>
+    <content type="html"><![CDATA[<h2 id="XinYing-Chen"><a href="#XinYing-Chen" class="headerlink" title="XinYing Chen"></a>XinYing Chen</h2><p>a.k.a. Ivan or anxgang</p><ul><li>ROR Developer</li></ul><h2 id="Skills"><a href="#Skills" class="headerlink" title="Skills"></a>Skills</h2><ul><li>PHP</li><li>Ruby / Rails</li><li>mysql / mssql</li><li>Mac / Linux</li><li>git</li></ul><h2 id="Experiences"><a href="#Experiences" class="headerlink" title="Experiences"></a>Experiences</h2><h3 id="Senior-Software-Engineer"><a href="#Senior-Software-Engineer" class="headerlink" title="Senior Software Engineer"></a>Senior Software Engineer</h3><ul><li><a href="http://www.liyi.com.tw" target="_blank" rel="noopener">LIYI TECHNOLOGY CO., LTD.</a></li><li>2012/5 ~ 2016/3 , about 4 years | Taiwan, kaohsiung<ol><li>Web-based ERP system front-end &amp; back-end develop.</li><li>API server maintain and feature develop.</li></ol></li></ul><h3 id="Full-Stack-Developer-and-Web-Architect"><a href="#Full-Stack-Developer-and-Web-Architect" class="headerlink" title="Full Stack Developer and Web Architect"></a>Full Stack Developer and Web Architect</h3><ul><li><a href="http://www.tranyi.com" target="_blank" rel="noopener">TRANYI DESIGN CO., LTD.</a></li><li>2016/7 ~ now | Taiwan, kaohsiung<ol><li>Web-based ERP system front-end &amp; back-end develop.</li><li>API server maintain and feature develop.</li></ol></li></ul><h2 id="Webs"><a href="#Webs" class="headerlink" title="Webs"></a>Webs</h2><ul><li><a href="https://github.com/anxgang" target="_blank" rel="noopener">GitHub</a></li><li><a href="https://tw.linkedin.com/in/xinying-chen-161958113" target="_blank" rel="noopener">LinkIn</a></li></ul>]]></content>
     
     <summary type="html">
     

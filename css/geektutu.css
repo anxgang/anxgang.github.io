@@ -3,6 +3,20 @@ body {
   tab-size: 4;
 }
 
+/* h2:before {
+  content: '';
+  border-left: 8px solid rgb(218, 217, 217);
+  padding-left: 8px;
+  background: transparent;
+}
+
+h3:before {
+  content: '';
+  border-left: 4px solid rgb(218, 217, 217);
+  padding-left: 8px;
+  background: transparent;
+} */
+
 a {
   text-decoration: none;
   color: #333;
