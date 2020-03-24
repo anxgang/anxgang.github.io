@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://anxgang.github.io/"/>
-  <updated>2020-03-23T02:39:09.537Z</updated>
+  <updated>2020-03-24T22:50:08.874Z</updated>
   <id>https://anxgang.github.io/</id>
   
   <author>
@@ -17,21 +17,21 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Rails Gem 應用筆記 (一) - 登入管理 (Devise)</title>
-    <link href="https://anxgang.github.io/post/series/S02_rails/C03_rails_gems/rails_gems_01.html"/>
-    <id>https://anxgang.github.io/post/series/S02_rails/C03_rails_gems/rails_gems_01.html</id>
-    <published>2020-03-22T02:00:03.000Z</published>
-    <updated>2020-03-23T02:39:09.537Z</updated>
+    <title>Rails 初學筆記 (二) - 開發環境建置</title>
+    <link href="https://anxgang.github.io/post/series/S02_rails/C01_rails_starter/series-rails-starter-02.html"/>
+    <id>https://anxgang.github.io/post/series/S02_rails/C01_rails_starter/series-rails-starter-02.html</id>
+    <published>2020-03-24T22:00:00.000Z</published>
+    <updated>2020-03-24T22:50:08.874Z</updated>
     
-    <content type="html"><![CDATA[<p>這篇文章主要介紹如何在 Rails 登入管理 (Devise)。</p><p>··· 省略</p>]]></content>
+    <content type="html"><![CDATA[<h2 id="安裝套件管理工具"><a href="#安裝套件管理工具" class="headerlink" title="安裝套件管理工具"></a>安裝套件管理工具</h2><p>請務必安裝 homebrew</p><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">/bin/bash -c <span class="string">"<span class="variable">$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)</span>"</span></span><br></pre></td></tr></table></figure><h2 id="安裝終端機"><a href="#安裝終端機" class="headerlink" title="安裝終端機"></a>安裝終端機</h2><p>建議安裝 iTerm2 取代原有的 Terminal</p><h4 id="安裝-iterm2"><a href="#安裝-iterm2" class="headerlink" title="安裝 iterm2"></a>安裝 iterm2</h4><p>請直接到 <a href="https://www.iterm2.com/" target="_blank" rel="noopener">https://www.iterm2.com/</a> 下載安裝</p><h4 id="安裝-zsh"><a href="#安裝-zsh" class="headerlink" title="安裝 zsh"></a>安裝 zsh</h4><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">brew install zsh</span><br></pre></td></tr></table></figure><h4 id="安裝-oh-my-zsh-套件"><a href="#安裝-oh-my-zsh-套件" class="headerlink" title="安裝 oh-my-zsh 套件"></a>安裝 oh-my-zsh 套件</h4><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sh -c <span class="string">"<span class="variable">$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)</span>"</span></span><br></pre></td></tr></table></figure><h2 id="安裝編輯器"><a href="#安裝編輯器" class="headerlink" title="安裝編輯器"></a>安裝編輯器</h2><p>建議可以安裝 VSCode 當作主要的編輯器<br><a href="https://code.visualstudio.com/" target="_blank" rel="noopener">https://code.visualstudio.com/</a></p><h2 id="安裝-Rails-和-RVM-版本管理"><a href="#安裝-Rails-和-RVM-版本管理" class="headerlink" title="安裝 Rails 和 RVM 版本管理"></a>安裝 Rails 和 RVM 版本管理</h2><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">gpg2 --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB</span><br><span class="line">\curl -sSL https://get.rvm.io | bash -s stable --rails</span><br></pre></td></tr></table></figure><h2 id="設定-git"><a href="#設定-git" class="headerlink" title="設定 git"></a>設定 git</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name &quot;YOUR NAME&quot;</span><br><span class="line">git config --global user.email &quot;YOUR@EMAIL.com&quot;</span><br></pre></td></tr></table></figure><h2 id="安裝資料庫"><a href="#安裝資料庫" class="headerlink" title="安裝資料庫"></a>安裝資料庫</h2><h4 id="6-1-安裝-sqlite3"><a href="#6-1-安裝-sqlite3" class="headerlink" title="6.1 安裝 sqlite3"></a>6.1 安裝 sqlite3</h4><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">brew install sqlite3</span><br></pre></td></tr></table></figure><h4 id="6-2-安裝-postgresql"><a href="#6-2-安裝-postgresql" class="headerlink" title="6.2 安裝 postgresql"></a>6.2 安裝 postgresql</h4><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">brew install postgresql</span><br><span class="line"><span class="comment"># 設定開機啟用服務</span></span><br><span class="line">brew services start postgresql</span><br></pre></td></tr></table></figure><blockquote><p>參考</p><ol><li><a href="https://www.freecodecamp.org/news/how-to-configure-your-macos-terminal-with-zsh-like-a-pro-c0ab3f3c1156/" target="_blank" rel="noopener">https://www.freecodecamp.org/news/how-to-configure-your-macos-terminal-with-zsh-like-a-pro-c0ab3f3c1156/</a></li><li><a href="https://gorails.com/setup/osx/10.15-catalina" target="_blank" rel="noopener">https://gorails.com/setup/osx/10.15-catalina</a></li></ol></blockquote>]]></content>
     
     <summary type="html">
     
-      Rails Gem 應用筆記
+      Rails 初學筆記
     
     </summary>
     
-      <category term="Rails Gem 應用筆記" scheme="https://anxgang.github.io/categories/Rails-Gem-%E6%87%89%E7%94%A8%E7%AD%86%E8%A8%98/"/>
+      <category term="Rails 初學筆記" scheme="https://anxgang.github.io/categories/Rails-%E5%88%9D%E5%AD%B8%E7%AD%86%E8%A8%98/"/>
     
     
       <category term="Rails" scheme="https://anxgang.github.io/tags/Rails/"/>
@@ -39,35 +39,13 @@
   </entry>
   
   <entry>
-    <title>Rails 實戰筆記 (一) - 實戰應用範例說明</title>
-    <link href="https://anxgang.github.io/post/series/S02_rails/C02_rails_realworld/rails_realworld_01.html"/>
-    <id>https://anxgang.github.io/post/series/S02_rails/C02_rails_realworld/rails_realworld_01.html</id>
-    <published>2020-03-22T02:00:02.000Z</published>
-    <updated>2020-03-23T02:28:57.505Z</updated>
-    
-    <content type="html"><![CDATA[<p>這篇文章主要介紹 rails 實戰經驗搭配範例說明。</p><p>··· 省略</p>]]></content>
-    
-    <summary type="html">
-    
-      Rails 實戰筆記
-    
-    </summary>
-    
-      <category term="Rails 實戰筆記" scheme="https://anxgang.github.io/categories/Rails-%E5%AF%A6%E6%88%B0%E7%AD%86%E8%A8%98/"/>
-    
-    
-      <category term="Rails" scheme="https://anxgang.github.io/tags/Rails/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Rails 初學筆記 (一) - 從零開始建立網站</title>
-    <link href="https://anxgang.github.io/post/series/S02_rails/C01_rails_starter/rails_starter_01.html"/>
-    <id>https://anxgang.github.io/post/series/S02_rails/C01_rails_starter/rails_starter_01.html</id>
+    <title>Rails 初學筆記 (一) - 前言</title>
+    <link href="https://anxgang.github.io/post/series/S02_rails/C01_rails_starter/series-rails-starter-01.html"/>
+    <id>https://anxgang.github.io/post/series/S02_rails/C01_rails_starter/series-rails-starter-01.html</id>
     <published>2020-03-22T02:00:01.000Z</published>
-    <updated>2020-03-23T08:31:46.235Z</updated>
+    <updated>2020-03-24T22:50:02.541Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="hello"><a href="#hello" class="headerlink" title="hello"></a>hello</h2><p>這篇文章主要介紹如何從零開始使用 rails 搭建最簡單的網站。</p><h2 id="hello-2"><a href="#hello-2" class="headerlink" title="hello 2"></a>hello 2</h2><h3 id="hello-2-1"><a href="#hello-2-1" class="headerlink" title="hello 2-1"></a>hello 2-1</h3><h3 id="hello-2-2"><a href="#hello-2-2" class="headerlink" title="hello 2-2"></a>hello 2-2</h3><p>··· 省略</p>]]></content>
+    <content type="html"><![CDATA[<h2 id="目標"><a href="#目標" class="headerlink" title="目標"></a>目標</h2><p>這系列的筆記，主要是記錄如何從零開始使用 rails 搭建最簡單的網站。</p><h2 id="使用環境"><a href="#使用環境" class="headerlink" title="使用環境"></a>使用環境</h2><p>mac / linux</p><h2 id="預備知識"><a href="#預備知識" class="headerlink" title="預備知識"></a>預備知識</h2><ul><li>網頁設計基礎<ul><li>HTML</li><li>CSS</li></ul></li><li>網路概念<ul><li>HTTP</li><li>DNS</li></ul></li><li>資料庫概念<ul><li>RDBMS關聯式資料庫</li><li>SQL語法</li></ul></li><li>指令列操作<ul><li>bash</li></ul></li></ul><h2 id="學習重點"><a href="#學習重點" class="headerlink" title="學習重點"></a>學習重點</h2><ul><li>安裝開發環境</li><li>Ruby 基礎<ul><li>常用語法</li><li>字串處理</li><li>資料型態</li><li>判斷式</li><li>迴圈</li></ul></li><li>Rails 基礎<ul><li>設定 (Config)</li><li>路由 (Router)</li><li>模型 (Model)</li><li>控制 (Controller)</li><li>視圖 (View)</li></ul></li><li>網站發佈 (Deploy)<ul><li>本機</li><li>PaaS (Heroku)</li><li>IaaS (DigitalOcean)</li></ul></li></ul>]]></content>
     
     <summary type="html">
     
@@ -87,9 +65,9 @@
     <link href="https://anxgang.github.io/post/link.html"/>
     <id>https://anxgang.github.io/post/link.html</id>
     <published>2020-02-29T16:00:01.000Z</published>
-    <updated>2020-03-23T07:32:33.669Z</updated>
+    <updated>2020-03-24T22:54:03.678Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="Rails"><a href="#Rails" class="headerlink" title="Rails"></a>Rails</h2><ul><li><a href="https://guides.rubyonrails.org/" target="_blank" rel="noopener">Rails官方</a></li><li><a href="https://5xruby.tw/posts/" target="_blank" rel="noopener">5xRuby 部落格</a></li><li><a href="https://ihower.tw/rails/index.html" target="_blank" rel="noopener">Rails 實戰聖經</a></li><li><a href="https://gorails.com/setup" target="_blank" rel="noopener">GoRails</a><ul><li><a href="https://gorails.com/setup" target="_blank" rel="noopener">GoRails Mac 開發環境建置</a></li><li><a href="https://gorails.com/deploy/ubuntu/18.04" target="_blank" rel="noopener">GoRails Ubuntu 生產環境建置</a></li></ul></li><li><a href="https://fullstack.qzy.camp/" target="_blank" rel="noopener">全棧營</a></li></ul><h2 id="Vue"><a href="#Vue" class="headerlink" title="Vue"></a>Vue</h2><ul><li><a href="https://vuejs.org/" target="_blank" rel="noopener">Vue官方</a></li><li><a href="https://www.vuemastery.com/" target="_blank" rel="noopener">Vue Mastery</a></li></ul>]]></content>
+    <content type="html"><![CDATA[<h2 id="Rails"><a href="#Rails" class="headerlink" title="Rails"></a>Rails</h2><ul><li><a href="https://guides.rubyonrails.org/" target="_blank" rel="noopener">Rails 官方</a></li><li><a href="https://5xruby.tw/posts/" target="_blank" rel="noopener">5xRuby 部落格</a></li><li><a href="https://ihower.tw/rails/index.html" target="_blank" rel="noopener">Rails 實戰聖經</a></li><li><a href="https://gorails.com/setup" target="_blank" rel="noopener">GoRails</a><ul><li><a href="https://gorails.com/setup" target="_blank" rel="noopener">GoRails Mac 開發環境建置</a></li><li><a href="https://gorails.com/deploy/ubuntu/18.04" target="_blank" rel="noopener">GoRails Ubuntu 生產環境建置</a></li></ul></li><li><a href="https://fullstack.qzy.camp/" target="_blank" rel="noopener">全棧營</a></li></ul><h2 id="Vue"><a href="#Vue" class="headerlink" title="Vue"></a>Vue</h2><ul><li><a href="https://vuejs.org/" target="_blank" rel="noopener">Vue 官方</a></li><li><a href="https://www.vuemastery.com/" target="_blank" rel="noopener">Vue Mastery</a></li></ul>]]></content>
     
     <summary type="html">
     

@@ -16,15 +16,15 @@
   
   <meta name="keywords" content="rails,ruby,javascript,css,Rails,">
   <!-- page.description has higher priority -->
-  <meta name="description" content="Rails Gem 應用筆記">
+  <meta name="description" content="Rails 初學筆記">
   <link rel="shortcut icon" href="/img/icon.png">
   <title>
     
-    Rails Gem 應用筆記 (一) - 登入管理 (Devise) | Anxgang
+    Rails 初學筆記 (二) - 開發環境建置 | Anxgang
     
   </title>
 
-  <link rel="canonical" href="/post/series/S02_rails/C03_rails_gems/rails_gems_01.html">
+  <link rel="canonical" href="/post/series/S02_rails/C01_rails_starter/series-rails-starter-02.html">
   <link rel="stylesheet" href="/css/reset.css">
   <link rel="stylesheet" href="/css/layout.css">
   <link rel="stylesheet" href="/css/markdown.css">
@@ -88,20 +88,7 @@
                 
                 
                 <li class="gkt-cate-name float-left active">
-                    <a class="float-left" href="/post/series/S02_rails/C01_rails_starter/rails_starter_01.html">Rails ▾</a>
-                    
-                    <ul class="gkt-sub-cate">
-                        
-                        <li class="gkt-sub-cate-name "><a class="float-left"
-                                href="/post/series/S02_rails/C01_rails_starter/rails_starter_01.html">Rails 初學筆記</a></li>
-                        
-                        <li class="gkt-sub-cate-name "><a class="float-left"
-                                href="/post/series/S02_rails/C02_rails_realworld/rails_realworld_01.html">Rails 實戰筆記</a></li>
-                        
-                        <li class="gkt-sub-cate-name active"><a class="float-left"
-                                href="/post/series/S02_rails/C03_rails_gems/rails_gems_01.html">Rails Gem 應用筆記</a></li>
-                        
-                    </ul>
+                    <a class="float-left" href="/post/series/S02_rails/C01_rails_starter/series-rails-starter-01.html">Rails</a>
                     
                 </li>
                 
@@ -142,23 +129,28 @@
 <div class="float-left post-container box-shadow">
     <div class="u-arrow-wrapper hidden-xs">
         
-        <a class="float-left" href="/post/series/S02_rails/C02_rails_realworld/rails_realworld_01.html"><i class="u-arrow-left"></i></a>
+        <a class="float-left" href="/post/series/S02_rails/C01_rails_starter/series-rails-starter-01.html"><i class="u-arrow-left"></i></a>
         
         
     </div>
     <article class="col-xs-12">
-        <h1> Rails Gem 應用筆記 (一) - 登入管理 (Devise) </h1>
+        <h1> Rails 初學筆記 (二) - 開發環境建置 </h1>
 
         
 
         
         <div class="hidden-lg hidden-md series_links">
-            <p> <strong> Rails Gem 應用筆記系列文章連結：</strong></p>
+            <p> <strong> Rails 初學筆記系列文章連結：</strong></p>
             <ul>
                 
                 <li>
-                    <a href="/post/series/S02_rails/C03_rails_gems/rails_gems_01.html">Rails Gem 應用筆記 (一) - 登入管理 (Devise)</a>
+                    <a href="/post/series/S02_rails/C01_rails_starter/series-rails-starter-01.html">Rails 初學筆記 (一) - 前言</a>
                     <span class="post-item-date">(Mar 22, 2020)</span>
+                </li>
+                
+                <li>
+                    <a href="/post/series/S02_rails/C01_rails_starter/series-rails-starter-02.html">Rails 初學筆記 (二) - 開發環境建置</a>
+                    <span class="post-item-date">(Mar 25, 2020)</span>
                 </li>
                 
             </ul>
@@ -166,8 +158,31 @@
         
         
         
-        <p>這篇文章主要介紹如何在 Rails 登入管理 (Devise)。</p>
-<p>··· 省略</p>
+        <h2 id="安裝套件管理工具"><a href="#安裝套件管理工具" class="headerlink" title="安裝套件管理工具"></a>安裝套件管理工具</h2><p>請務必安裝 homebrew</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">/bin/bash -c <span class="string">"<span class="variable">$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)</span>"</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="安裝終端機"><a href="#安裝終端機" class="headerlink" title="安裝終端機"></a>安裝終端機</h2><p>建議安裝 iTerm2 取代原有的 Terminal</p>
+<h4 id="安裝-iterm2"><a href="#安裝-iterm2" class="headerlink" title="安裝 iterm2"></a>安裝 iterm2</h4><p>請直接到 <a href="https://www.iterm2.com/" target="_blank" rel="noopener">https://www.iterm2.com/</a> 下載安裝</p>
+<h4 id="安裝-zsh"><a href="#安裝-zsh" class="headerlink" title="安裝 zsh"></a>安裝 zsh</h4><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">brew install zsh</span><br></pre></td></tr></table></figure>
+
+<h4 id="安裝-oh-my-zsh-套件"><a href="#安裝-oh-my-zsh-套件" class="headerlink" title="安裝 oh-my-zsh 套件"></a>安裝 oh-my-zsh 套件</h4><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sh -c <span class="string">"<span class="variable">$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)</span>"</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="安裝編輯器"><a href="#安裝編輯器" class="headerlink" title="安裝編輯器"></a>安裝編輯器</h2><p>建議可以安裝 VSCode 當作主要的編輯器<br><a href="https://code.visualstudio.com/" target="_blank" rel="noopener">https://code.visualstudio.com/</a></p>
+<h2 id="安裝-Rails-和-RVM-版本管理"><a href="#安裝-Rails-和-RVM-版本管理" class="headerlink" title="安裝 Rails 和 RVM 版本管理"></a>安裝 Rails 和 RVM 版本管理</h2><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">gpg2 --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB</span><br><span class="line">\curl -sSL https://get.rvm.io | bash -s stable --rails</span><br></pre></td></tr></table></figure>
+
+<h2 id="設定-git"><a href="#設定-git" class="headerlink" title="設定 git"></a>設定 git</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name &quot;YOUR NAME&quot;</span><br><span class="line">git config --global user.email &quot;YOUR@EMAIL.com&quot;</span><br></pre></td></tr></table></figure>
+
+<h2 id="安裝資料庫"><a href="#安裝資料庫" class="headerlink" title="安裝資料庫"></a>安裝資料庫</h2><h4 id="6-1-安裝-sqlite3"><a href="#6-1-安裝-sqlite3" class="headerlink" title="6.1 安裝 sqlite3"></a>6.1 安裝 sqlite3</h4><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">brew install sqlite3</span><br></pre></td></tr></table></figure>
+
+<h4 id="6-2-安裝-postgresql"><a href="#6-2-安裝-postgresql" class="headerlink" title="6.2 安裝 postgresql"></a>6.2 安裝 postgresql</h4><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">brew install postgresql</span><br><span class="line"><span class="comment"># 設定開機啟用服務</span></span><br><span class="line">brew services start postgresql</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>參考</p>
+<ol>
+<li><a href="https://www.freecodecamp.org/news/how-to-configure-your-macos-terminal-with-zsh-like-a-pro-c0ab3f3c1156/" target="_blank" rel="noopener">https://www.freecodecamp.org/news/how-to-configure-your-macos-terminal-with-zsh-like-a-pro-c0ab3f3c1156/</a></li>
+<li><a href="https://gorails.com/setup/osx/10.15-catalina" target="_blank" rel="noopener">https://gorails.com/setup/osx/10.15-catalina</a></li>
+</ol>
+</blockquote>
 
         <script src="/js/qrious.min.js"></script>
 
@@ -177,14 +192,14 @@
             <p>
                 <span>主題: </span>
                 
-                <a href="/series/#Rails Gem 應用筆記">
-                    <code key="Rails Gem 應用筆記" class="post-label">Rails Gem 應用筆記</code>
+                <a href="/series/#Rails 初學筆記">
+                    <code key="Rails 初學筆記" class="post-label">Rails 初學筆記</code>
                 </a>
                 
             </p>
             
             <p>
-                <span style="color: gray">發表時間 2020-03-22，最後修改時間 2020-03-23。</span>
+                <span style="color: gray">發表時間 2020-03-25，最後修改時間 2020-03-25。</span>
             </p>
             <!-- 文章末尾的提示 start -->
             
@@ -196,7 +211,7 @@
         <hr />
         <p name="pagination" style="font-size: 1.2em">
     
-    <a class="float-left" href="/post/series/S02_rails/C02_rails_realworld/rails_realworld_01.html">« Rails 實戰筆記 (一) - 實戰應用範例說明</a>
+    <a class="float-left" href="/post/series/S02_rails/C01_rails_starter/series-rails-starter-01.html">« Rails 初學筆記 (一) - 前言</a>
     
     
 </p>
@@ -210,8 +225,8 @@
         
         <div class="post-preview">
     <div class="post-img" 
-        style="background-image: url('/post/rails_gem.png'); cursor: pointer" 
-        onClick="location.href='/post/series/S02_rails/C03_rails_gems/rails_gems_01.html'"></div>
+        style="background-image: url('/post/rails_starter.jpg'); cursor: pointer" 
+        onClick="location.href='/post/series/S02_rails/C01_rails_starter/series-rails-starter-01.html'"></div>
     <div class="post-info">
         <div class="post-info-center">
             <div class="hidden-xs">
@@ -225,18 +240,18 @@
                 
                 
             </div>
-            <a href="/post/series/S02_rails/C03_rails_gems/rails_gems_01.html" class="title">
-                Rails Gem 應用筆記 (一) - 登入管理 (Devise)
+            <a href="/post/series/S02_rails/C01_rails_starter/series-rails-starter-01.html" class="title">
+                Rails 初學筆記 (一) - 前言
             </a>
             <p class="text-gray">
                 <small>
                     <span>發表於 2020-03-22，</span>
-                    <span class="hidden-xs">全文303字，</span>
-                    <span>約2分鐘看完</span>
+                    <span class="hidden-xs">全文647字，</span>
+                    <span>約3分鐘看完</span>
                     
                     <span>
-                        <a href="/post/series/S02_rails/C03_rails_gems/rails_gems_01.html#disqus_thread">
-                            留言
+                        <a href="/post/series/S02_rails/C01_rails_starter/series-rails-starter-01.html#disqus_thread">
+                            <!--留言-->
                         </a>
                     </span>
                     
@@ -248,8 +263,8 @@
         
         <div class="post-preview">
     <div class="post-img" 
-        style="background-image: url('/post/rails_realworld.png'); cursor: pointer" 
-        onClick="location.href='/post/series/S02_rails/C02_rails_realworld/rails_realworld_01.html'"></div>
+        style="background-image: url('/post/default.png'); cursor: pointer" 
+        onClick="location.href='/post/link.html'"></div>
     <div class="post-info">
         <div class="post-info-center">
             <div class="hidden-xs">
@@ -257,24 +272,24 @@
                 
                 <!-- <span>/</span> -->
                 
-                <a class="text-gray" href="/tags/#Rails"
-                    title="Rails">Rails</a> 
+                <a class="text-gray" href="/tags/#其他"
+                    title="其他">其他</a> 
                 <!-- <span>/</span> --> 
                 
                 
             </div>
-            <a href="/post/series/S02_rails/C02_rails_realworld/rails_realworld_01.html" class="title">
-                Rails 實戰筆記 (一) - 實戰應用範例說明
+            <a href="/post/link.html" class="title">
+                連結
             </a>
             <p class="text-gray">
                 <small>
-                    <span>發表於 2020-03-22，</span>
-                    <span class="hidden-xs">全文286字，</span>
-                    <span>約1分鐘看完</span>
+                    <span>發表於 2020-03-01，</span>
+                    <span class="hidden-xs">全文526字，</span>
+                    <span>約2分鐘看完</span>
                     
                     <span>
-                        <a href="/post/series/S02_rails/C02_rails_realworld/rails_realworld_01.html#disqus_thread">
-                            留言
+                        <a href="/post/link.html#disqus_thread">
+                            <!--留言-->
                         </a>
                     </span>
                     
@@ -312,7 +327,7 @@
                     
                     <span>
                         <a href="/post/about.html#disqus_thread">
-                            留言
+                            <!--留言-->
                         </a>
                     </span>
                     
@@ -349,7 +364,7 @@
         rel="2">其他 <small style="color: gray">2</small> </a>
     
     <a class="post-tag-item" href="/tags/#Rails" title="Rails"
-        rel="3">Rails <small style="color: gray">3</small> </a>
+        rel="2">Rails <small style="color: gray">2</small> </a>
     
 </div>
     </div>
@@ -433,10 +448,10 @@
 <div class="gkt-summary">
     <nav>
         <a href="/" class="col-xs-4">
-            <number class="number">5</number><span>文章</span>
+            <number class="number">4</number><span>文章</span>
         </a>
         <a href="/series" class="col-xs-4 middle">
-            <number class="number">3</number><span>主題</span>
+            <number class="number">1</number><span>主題</span>
         </a>
         <a href="/tags" class="col-xs-4">
             <number class="number">2</number><span>標籤</span>
@@ -454,16 +469,24 @@
         
         
         <section class="gkt-sidebar-content box-shadow">
-            <strong>Rails Gem 應用筆記</strong>
+            <strong>Rails 初學筆記</strong>
             <ul>
                 
                 <li>
-                    <a href="/post/series/S02_rails/C03_rails_gems/rails_gems_01.html"
-                        class="gkt-sidebar-active"> (一) 登入管理 (Devise)</a>
+                    <a href="/post/series/S02_rails/C01_rails_starter/series-rails-starter-01.html"
+                        class=""> (一) 前言</a>
+                    
+                </li>
+                
+                <li>
+                    <a href="/post/series/S02_rails/C01_rails_starter/series-rails-starter-02.html"
+                        class="gkt-sidebar-active"> (二) 開發環境建置</a>
                     
                     <!-- Table of Contents -->
 <div id="sidebar-toc">
   <!-- TOC  -->
+  
+  <ol class="toc-nav"><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#安裝套件管理工具"><span class="toc-nav-text">安裝套件管理工具</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#安裝終端機"><span class="toc-nav-text">安裝終端機</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#安裝編輯器"><span class="toc-nav-text">安裝編輯器</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#安裝-Rails-和-RVM-版本管理"><span class="toc-nav-text">安裝 Rails 和 RVM 版本管理</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#設定-git"><span class="toc-nav-text">設定 git</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#安裝資料庫"><span class="toc-nav-text">安裝資料庫</span></a></li></ol>
   
 </div>
 
@@ -514,15 +537,15 @@
             <ul>
                 
                 <li>
-                    <a href="/post/series/S02_rails/C03_rails_gems/rails_gems_01.html">Rails Gem 應用筆記 (一) - 登入管理 (Devise)</a>
+                    <a href="/post/series/S02_rails/C01_rails_starter/series-rails-starter-02.html">Rails 初學筆記 (二) - 開發環境建置</a>
                 </li>
                 
                 <li>
-                    <a href="/post/series/S02_rails/C02_rails_realworld/rails_realworld_01.html">Rails 實戰筆記 (一) - 實戰應用範例說明</a>
+                    <a href="/post/series/S02_rails/C01_rails_starter/series-rails-starter-01.html">Rails 初學筆記 (一) - 前言</a>
                 </li>
                 
                 <li>
-                    <a href="/post/series/S02_rails/C01_rails_starter/rails_starter_01.html">Rails 初學筆記 (一) - 從零開始建立網站</a>
+                    <a href="/post/link.html">連結</a>
                 </li>
                 
             </ul>

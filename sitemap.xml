@@ -2,30 +2,58 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://anxgang.github.io/post/link.html</loc>
+    
+    <lastmod>2020-03-24T22:54:03.678Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://anxgang.github.io/post/series/S02_rails/C01_rails_starter/series-rails-starter-02.html</loc>
+    
+    <lastmod>2020-03-24T22:50:08.874Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://anxgang.github.io/post/series/S02_rails/C01_rails_starter/series-rails-starter-01.html</loc>
+    
+    <lastmod>2020-03-24T22:50:02.541Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://anxgang.github.io/drafts/series/S02_rails/C03_rails_gems/rails_gems_01.html</loc>
+    
+    <lastmod>2020-03-24T15:11:58.776Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://anxgang.github.io/drafts/series/S02_rails/C02_rails_realworld/rails_realworld_01.html</loc>
+    
+    <lastmod>2020-03-24T15:11:58.774Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://anxgang.github.io/drafts/series/S02_rails/C01_rails_starter/rails_starter_02.html</loc>
+    
+    <lastmod>2020-03-24T15:11:58.772Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://anxgang.github.io/drafts/series/S02_rails/C01_rails_starter/rails_starter_01.html</loc>
+    
+    <lastmod>2020-03-24T15:11:58.769Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://anxgang.github.io/post/about.html</loc>
     
     <lastmod>2020-03-23T08:51:24.645Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://anxgang.github.io/post/series/S02_rails/C01_rails_starter/rails_starter_01.html</loc>
-    
-    <lastmod>2020-03-23T08:31:46.235Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://anxgang.github.io/post/link.html</loc>
-    
-    <lastmod>2020-03-23T07:32:33.669Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://anxgang.github.io/post/series/S02_rails/C03_rails_gems/rails_gems_01.html</loc>
-    
-    <lastmod>2020-03-23T02:39:09.537Z</lastmod>
     
   </url>
   
@@ -40,13 +68,6 @@
     <loc>https://anxgang.github.io/drafts/series/S01_ubuntu/C02_ubuntu_realworld/ubuntu_realworld_01.html</loc>
     
     <lastmod>2020-03-23T02:29:00.689Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://anxgang.github.io/post/series/S02_rails/C02_rails_realworld/rails_realworld_01.html</loc>
-    
-    <lastmod>2020-03-23T02:28:57.505Z</lastmod>
     
   </url>
   
