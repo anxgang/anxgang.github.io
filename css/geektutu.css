@@ -26,6 +26,15 @@ h3:before {
 a {
   text-decoration: none;
   color: #333;
+}
+
+a:hover {
+  color: rgb(79, 149, 255)!important;
+  transition: color 0.3s ease;
+}
+
+a.text-gray:hover {
+  color: rgb(79, 149, 255)!important;
   transition: color 0.3s ease;
 }
 
@@ -229,6 +238,18 @@ main {
   display: flex;
   flex-direction: row;
   height: max-content;
+  padding-left: 10px;
+  /* border-radius: 5px; */
+}
+
+  /* {
+  background-color: rgb(235, 235, 235);
+  transition: background-color 0.3s ease;
+} */
+
+img:hover, .post-preview:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.19);
+  transition: box-shadow 0.3s ease;
 }
 
 .post-preview .text-gray {
