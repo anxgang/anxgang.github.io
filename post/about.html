@@ -279,7 +279,7 @@
         <div class="post-preview">
     <div class="post-img" 
         style="background-image: url('/post/default.png'); cursor: pointer" 
-        onClick="location.href='/post/link.html'"></div>
+        onClick="location.href='/post/about.html'"></div>
     <div class="post-info">
         <div class="post-info-center">
             <div class="hidden-xs">
@@ -293,17 +293,17 @@
                 
                 
             </div>
-            <a href="/post/link.html" class="title">
-                連結
+            <a href="/post/about.html" class="title">
+                關於
             </a>
             <p class="text-gray">
                 <small>
                     <span>發表於 2020-03-01，</span>
-                    <span class="hidden-xs">全文526字，</span>
-                    <span>約2分鐘看完</span>
+                    <span class="hidden-xs">全文825字，</span>
+                    <span>約3分鐘看完</span>
                     
                     <span>
-                        <a href="/post/link.html#disqus_thread">
+                        <a href="/post/about.html#disqus_thread">
                             <!--留言-->
                         </a>
                     </span>
@@ -547,7 +547,7 @@
 <script>
     (function () {
         function randomInt(low, high) { return Math.floor(Math.random() * (high - low) + low) };
-        var count = '2', links = JSON.parse('["<div><a href=https://m.do.co/c/6c3b0ba300ef><img src=/img/ads/digitalocean.png alt=rec></a></div>","<div><a href=https://www.vultr.com/?ref=8509484-6G><img src=/img/ads/vultr.png alt=rec></a></div>"]'), childs = '';
+        var count = '2', links = JSON.parse('["<div><a href=https://m.do.co/c/6c3b0ba300ef><img src=/img/vps_coupon/digitalocean.png alt=rec></a></div>","<div><a href=https://www.vultr.com/?ref=8509484-6G><img src=/img/vps_coupon/vultr.png alt=rec></a></div>"]'), childs = '';
         var start = randomInt(0, links.length);
         for (var i = 0; i < count; i++) { childs += links[(i + start) % links.length] };
         document.querySelector('.gkt-rec-links').innerHTML = childs;
