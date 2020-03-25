@@ -1,10 +1,9 @@
 /* @import url(https://fonts.googleapis.com/earlyaccess/cwtexyen.css); */
 
 body {
-  font-family: "Microsoft JhengHei", "微軟正黑體", sans-serif;
+  font-family: arial, 'Microsoft JhengHei Black', sans-serif;
   tab-size: 4;
 }
-
 
 /* article p {
  line-height: 3em;
@@ -27,6 +26,7 @@ h3:before {
 a {
   text-decoration: none;
   color: #333;
+  transition: color 0.3s ease;
 }
 
 .text-center {

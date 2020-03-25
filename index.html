@@ -59,9 +59,6 @@
   </script>
   <!-- google ad -->
   
-  
-  <script id="dsq-count-scr" src="//anxgang-github-io.disqus.com/count.js" async></script>
-  
 </head>
 
 <body>
@@ -492,6 +489,36 @@
     
 </div></section>
             
+            <section class="bg-white box-shadow text-center">
+                
+<style>
+    .gkt-rec-links,
+    .gkt-rec-links div {
+        width: 250px;
+        margin: 0 auto;
+    }
+
+    .gkt-rec-links a>img {
+        width: 100%;
+        margin-left: 0;
+        transform: none;
+        -webkit-transform: none;
+    }
+</style>
+<div class="gkt-rec-links"></div>
+
+<script>
+    (function () {
+        function randomInt(low, high) { return Math.floor(Math.random() * (high - low) + low) };
+        var count = '2', links = JSON.parse('["<div><a href=https://m.do.co/c/6c3b0ba300ef><img src=/img/ads/digitalocean.png alt=rec></a></div>","<div><a href=https://www.vultr.com/?ref=8509484-6G><img src=/img/ads/vultr.png alt=rec></a></div>"]'), childs = '';
+        var start = randomInt(0, links.length);
+        for (var i = 0; i < count; i++) { childs += links[(i + start) % links.length] };
+        document.querySelector('.gkt-rec-links').innerHTML = childs;
+    })()
+</script>
+
+            </section>
+            
         </div>
     </div>
     
@@ -676,6 +703,9 @@
             article && article.addEventListener('click', stopBubble, false)
         })();
     </script>
+    
+    <script id="dsq-count-scr" src="//anxgang-github-io.disqus.com/count.js" async></script>
+    
     
 </body>
 
