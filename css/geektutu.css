@@ -1,10 +1,15 @@
+/* @import url(https://fonts.googleapis.com/earlyaccess/cwtexyen.css); */
+
 body {
-  font-family: "Microsoft JhengHei", Helvetica, "Meiryo UI", "Malgun Gothic", "Segoe UI", "Trebuchet MS", "Monaco", monospace, Tahoma, "华文细黑", JhengHei, "Helvetica Neue", "Droid Sans", "wenquanyi micro hei", FreeSans, Arimo, Arial, SimSun, "宋体", JhengHei, "微軟正黑體", sans-serif;
+  font-family: "Microsoft JhengHei", "微軟正黑體", sans-serif;
   tab-size: 4;
 }
+
+
 /* article p {
  line-height: 3em;
 } */
+
 /* h2:before {
   content: '';
   border-left: 8px solid rgb(218, 217, 217);

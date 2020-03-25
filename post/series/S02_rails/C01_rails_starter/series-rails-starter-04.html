@@ -14,17 +14,17 @@
   <!-- if page has tags, then add tags to keyword -->
   
   
-  <meta name="keywords" content="rails,ruby,javascript,css,其他,">
+  <meta name="keywords" content="rails,ruby,javascript,css,Rails,">
   <!-- page.description has higher priority -->
-  <meta name="description" content="連結們">
+  <meta name="description" content="Rails 初學筆記">
   <link rel="shortcut icon" href="/img/icon.png">
   <title>
     
-    連結 | Anxgang
+    Rails 初學筆記 (四) - Rails 基本概念 | Anxgang
     
   </title>
 
-  <link rel="canonical" href="/post/link.html">
+  <link rel="canonical" href="/post/series/S02_rails/C01_rails_starter/series-rails-starter-04.html">
   <link rel="stylesheet" href="/css/reset.css">
   <link rel="stylesheet" href="/css/layout.css">
   <link rel="stylesheet" href="/css/markdown.css">
@@ -87,7 +87,7 @@
             <ul>
                 
                 
-                <li class="gkt-cate-name float-left ">
+                <li class="gkt-cate-name float-left active">
                     <a class="float-left" href="/post/series/S02_rails/C01_rails_starter/series-rails-starter-01.html">Rails</a>
                     
                 </li>
@@ -129,35 +129,177 @@
 <div class="float-left post-container box-shadow">
     <div class="u-arrow-wrapper hidden-xs">
         
-        <a class="float-left" href="/post/about.html"><i class="u-arrow-left"></i></a>
+        <a class="float-left" href="/post/series/S02_rails/C01_rails_starter/series-rails-starter-03.html"><i class="u-arrow-left"></i></a>
         
-        
-        <a class="float-right" href="/post/series/S02_rails/C01_rails_starter/series-rails-starter-01.html"><i class="u-arrow-right"></i></a>
         
     </div>
     <article class="col-xs-12">
-        <h1> 連結 </h1>
+        <h1> Rails 初學筆記 (四) - Rails 基本概念 </h1>
 
         
 
         
+        <div class="hidden-lg hidden-md series_links">
+            <p> <strong> Rails 初學筆記系列文章連結：</strong></p>
+            <ul>
+                
+                <li>
+                    <a href="/post/series/S02_rails/C01_rails_starter/series-rails-starter-01.html">Rails 初學筆記 (一) - 前言</a>
+                    <span class="post-item-date">(Mar 22, 2020)</span>
+                </li>
+                
+                <li>
+                    <a href="/post/series/S02_rails/C01_rails_starter/series-rails-starter-02.html">Rails 初學筆記 (二) - 開發環境建置</a>
+                    <span class="post-item-date">(Mar 25, 2020)</span>
+                </li>
+                
+                <li>
+                    <a href="/post/series/S02_rails/C01_rails_starter/series-rails-starter-03.html">Rails 初學筆記 (三) - Ruby 基礎說明</a>
+                    <span class="post-item-date">(Mar 25, 2020)</span>
+                </li>
+                
+                <li>
+                    <a href="/post/series/S02_rails/C01_rails_starter/series-rails-starter-04.html">Rails 初學筆記 (四) - Rails 基本概念</a>
+                    <span class="post-item-date">(Mar 25, 2020)</span>
+                </li>
+                
+            </ul>
+        </div>
         
         
-        <h2 id="Rails"><a href="#Rails" class="headerlink" title="Rails"></a>Rails</h2><ul>
-<li><a href="https://guides.rubyonrails.org/" target="_blank" rel="noopener">Rails 官方</a></li>
-<li><a href="https://5xruby.tw/posts/" target="_blank" rel="noopener">5xRuby 部落格</a></li>
-<li><a href="https://ihower.tw/rails/index.html" target="_blank" rel="noopener">Rails 實戰聖經</a></li>
-<li><a href="https://gorails.com/setup" target="_blank" rel="noopener">GoRails</a><ul>
-<li><a href="https://gorails.com/setup" target="_blank" rel="noopener">GoRails Mac 開發環境建置</a></li>
-<li><a href="https://gorails.com/deploy/ubuntu/18.04" target="_blank" rel="noopener">GoRails Ubuntu 生產環境建置</a></li>
+        
+        <p><img src="/post/series/S02_rails/C01_rails_starter/rails_starter.jpg" alt></p>
+<h2 id="何謂-Rails"><a href="#何謂-Rails" class="headerlink" title="何謂 Rails"></a>何謂 Rails</h2><p>Ruby 是 程式語言<br>Rails 是 網頁框架<br>Rails 是使用 ruby 語言寫出來的 網頁框架</p>
+<h2 id="何謂網頁框架"><a href="#何謂網頁框架" class="headerlink" title="何謂網頁框架"></a>何謂網頁框架</h2><p>是指一個開箱即用的網頁開發工具，</p>
+<p>因為許多功能都已經寫好，不用從頭自己寫，所以開發起來能夠很快速。</p>
+<h2 id="Rails-網頁流程"><a href="#Rails-網頁流程" class="headerlink" title="Rails 網頁流程"></a>Rails 網頁流程</h2><p>route -&gt; controller ( -&gt; model ) -&gt; view</p>
+<ul>
+<li>route 路由</li>
+<li>controller 程式邏輯</li>
+<li>model 對應關連式資料庫的 table</li>
+<li>view 網頁顯示</li>
+</ul>
+<h2 id="Rails-開發流程"><a href="#Rails-開發流程" class="headerlink" title="Rails 開發流程"></a>Rails 開發流程</h2><p>通常是幾個步驟</p>
+<ul>
+<li>Step.1 先思考有哪些功能 (User Story)</li>
+<li>Step.2 把功能換成頁面流程 (Wireflow)</li>
+<li>Step.3 思考需要有哪些 Model 並建立關聯 (DB Migration &amp; Model Relation)</li>
+<li>Step.4 最後再把邏輯寫在 Controller 並寫好對應的 View 及 Route</li>
+</ul>
+<p>一直重複以上步驟就可以把網站完成</p>
+<h2 id="Rails-開發流程範例"><a href="#Rails-開發流程範例" class="headerlink" title="Rails 開發流程範例"></a>Rails 開發流程範例</h2><p>例如： 我們要開發一個部落格</p>
+<h4 id="Step-1-先思考有哪些功能-User-Story"><a href="#Step-1-先思考有哪些功能-User-Story" class="headerlink" title="Step.1 先思考有哪些功能 (User Story)"></a>Step.1 先思考有哪些功能 (User Story)</h4><ul>
+<li>所有人 可以看 文章列表</li>
+<li>所有人 可以看 文章頁面</li>
+<li>所有人 可以在文章頁面 留言</li>
+<li>作者 可以新增 文章</li>
+<li>作者 可以編輯 文章頁面</li>
+</ul>
+<h4 id="Step-2-把功能換成頁面流程-Wireflow"><a href="#Step-2-把功能換成頁面流程-Wireflow" class="headerlink" title="Step.2 把功能換成頁面流程 (Wireflow)"></a>Step.2 把功能換成頁面流程 (Wireflow)</h4><ul>
+<li>a. 文章列表(首頁)<ul>
+<li>@文章連結 -&gt; 前往 b.</li>
+<li>@登入連結 -&gt; 前往 d.</li>
+<li>@新增文章連結 -&gt; 前往 c.</li>
 </ul>
 </li>
-<li><a href="https://fullstack.qzy.camp/" target="_blank" rel="noopener">全棧營</a></li>
+<li>b. 瀏覽文章頁面<ul>
+<li>@留言按鈕 -&gt; 前往 b.</li>
+<li>@編輯按鈕 -&gt; 前往 c.</li>
 </ul>
-<h2 id="Vue"><a href="#Vue" class="headerlink" title="Vue"></a>Vue</h2><ul>
-<li><a href="https://vuejs.org/" target="_blank" rel="noopener">Vue 官方</a></li>
-<li><a href="https://www.vuemastery.com/" target="_blank" rel="noopener">Vue Mastery</a></li>
+</li>
+<li>c. 新增/編輯文章頁面</li>
+<li>d. 登入頁面</li>
 </ul>
+<h4 id="Step-3-思考需要有哪些-Model-並建立關聯-DB-Migration-amp-Model-Relation"><a href="#Step-3-思考需要有哪些-Model-並建立關聯-DB-Migration-amp-Model-Relation" class="headerlink" title="Step.3 思考需要有哪些 Model 並建立關聯 (DB Migration &amp; Model Relation)"></a>Step.3 思考需要有哪些 Model 並建立關聯 (DB Migration &amp; Model Relation)</h4><ul>
+<li>文章 (Article)<ul>
+<li>有很多 留言 (has_many :comments)</li>
+</ul>
+</li>
+<li>留言 (Comment)<ul>
+<li>屬於 一篇文章 (belongs_to :article)</li>
+</ul>
+</li>
+<li>使用者 (User)<ul>
+<li>有很多 文章 (has_many :articles)</li>
+<li>有很多 留言 (has_many :comments)</li>
+</ul>
+</li>
+</ul>
+<h4 id="Step-4-最後再把邏輯寫在-Controller-並寫好對應的-View-及-Route"><a href="#Step-4-最後再把邏輯寫在-Controller-並寫好對應的-View-及-Route" class="headerlink" title="Step.4 最後再把邏輯寫在 Controller 並寫好對應的 View 及 Route"></a>Step.4 最後再把邏輯寫在 Controller 並寫好對應的 View 及 Route</h4><ul>
+<li><p>文章</p>
+<ul>
+<li>Route<ul>
+<li>GET /articles</li>
+<li>GET /articles/new</li>
+<li>POST /articles</li>
+<li>GET /article/{i}</li>
+<li>PUT /article/{i}</li>
+<li>GET /article/{i}</li>
+</ul>
+</li>
+<li>Controller<ul>
+<li>ArticlesController<ul>
+<li>index</li>
+<li>new</li>
+<li>create</li>
+<li>edit</li>
+<li>update</li>
+<li>show</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>View<ul>
+<li>new</li>
+<li>edit</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>留言</p>
+<ul>
+<li>Route<ul>
+<li>POST /article/{i}/comments</li>
+</ul>
+</li>
+<li>Controller<ul>
+<li>CommentsController<ul>
+<li>create</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>使用者</p>
+<ul>
+<li>Route User<ul>
+<li>GET /users/login</li>
+<li>POST /user/session_create</li>
+</ul>
+</li>
+<li>Controller<ul>
+<li>CommentsController<ul>
+<li>login</li>
+<li>session_create</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>View<ul>
+<li>login</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p>參考</p>
+<ol>
+<li><a href="http://cat-son.blogspot.com/2015/03/user-story.html#sthash.oJC0Q4Pg.dpbs" target="_blank" rel="noopener">http://cat-son.blogspot.com/2015/03/user-story.html#sthash.oJC0Q4Pg.dpbs</a></li>
+<li><a href="https://medium.com/monospace-tw/%E6%9B%B4%E9%81%A9%E5%90%88-ui-%E8%A8%AD%E8%A8%88%E5%B8%AB%E8%A3%BD%E4%BD%9C%E7%9A%84%E9%A0%81%E9%9D%A2%E6%B5%81%E7%A8%8B%E5%9C%96-wireflow-d51b785d85c2" target="_blank" rel="noopener">https://medium.com/monospace-tw/%E6%9B%B4%E9%81%A9%E5%90%88-ui-%E8%A8%AD%E8%A8%88%E5%B8%AB%E8%A3%BD%E4%BD%9C%E7%9A%84%E9%A0%81%E9%9D%A2%E6%B5%81%E7%A8%8B%E5%9C%96-wireflow-d51b785d85c2</a></li>
+</ol>
+</blockquote>
 
         <script src="/js/qrious.min.js"></script>
 
@@ -165,7 +307,16 @@
         <div>
             
             <p>
-                <span style="color: gray">發表時間 2020-03-01，最後修改時間 2020-03-25。</span>
+                <span>主題: </span>
+                
+                <a href="/series/#Rails 初學筆記">
+                    <code key="Rails 初學筆記" class="post-label">Rails 初學筆記</code>
+                </a>
+                
+            </p>
+            
+            <p>
+                <span style="color: gray">發表時間 2020-03-25，最後修改時間 2020-03-25。</span>
             </p>
             <!-- 文章末尾的提示 start -->
             
@@ -177,10 +328,8 @@
         <hr />
         <p name="pagination" style="font-size: 1.2em">
     
-    <a class="float-left" href="/post/about.html">« 關於</a>
+    <a class="float-left" href="/post/series/S02_rails/C01_rails_starter/series-rails-starter-03.html">« Rails 初學筆記 (三) - Ruby 基礎說明</a>
     
-    
-    <a class="float-right" href="/post/series/S02_rails/C01_rails_starter/series-rails-starter-01.html">Rails 初學筆記 (一) - 前言 »</a>
     
 </p>
     </article>
@@ -194,7 +343,7 @@
         <div class="post-preview">
     <div class="post-img" 
         style="background-image: url('/post/series/S02_rails/C01_rails_starter/rails_starter.jpg'); cursor: pointer" 
-        onClick="location.href='/post/series/S02_rails/C01_rails_starter/series-rails-starter-04.html'"></div>
+        onClick="location.href='/post/series/S02_rails/C01_rails_starter/series-rails-starter-03.html'"></div>
     <div class="post-info">
         <div class="post-info-center">
             <div class="hidden-xs">
@@ -208,17 +357,17 @@
                 
                 
             </div>
-            <a href="/post/series/S02_rails/C01_rails_starter/series-rails-starter-04.html" class="title">
-                Rails 初學筆記 (四) - Rails 基本概念
+            <a href="/post/series/S02_rails/C01_rails_starter/series-rails-starter-03.html" class="title">
+                Rails 初學筆記 (三) - Ruby 基礎說明
             </a>
             <p class="text-gray">
                 <small>
                     <span>發表於 2020-03-25，</span>
-                    <span class="hidden-xs">全文2288字，</span>
-                    <span>約8分鐘看完</span>
+                    <span class="hidden-xs">全文3094字，</span>
+                    <span>約11分鐘看完</span>
                     
                     <span>
-                        <a href="/post/series/S02_rails/C01_rails_starter/series-rails-starter-04.html#disqus_thread">
+                        <a href="/post/series/S02_rails/C01_rails_starter/series-rails-starter-03.html#disqus_thread">
                             <!--留言-->
                         </a>
                     </span>
@@ -232,7 +381,7 @@
         <div class="post-preview">
     <div class="post-img" 
         style="background-image: url('/post/series/S02_rails/C01_rails_starter/rails_starter.jpg'); cursor: pointer" 
-        onClick="location.href='/post/series/S02_rails/C01_rails_starter/series-rails-starter-01.html'"></div>
+        onClick="location.href='/post/series/S02_rails/C01_rails_starter/series-rails-starter-02.html'"></div>
     <div class="post-info">
         <div class="post-info-center">
             <div class="hidden-xs">
@@ -246,17 +395,17 @@
                 
                 
             </div>
-            <a href="/post/series/S02_rails/C01_rails_starter/series-rails-starter-01.html" class="title">
-                Rails 初學筆記 (一) - 前言
+            <a href="/post/series/S02_rails/C01_rails_starter/series-rails-starter-02.html" class="title">
+                Rails 初學筆記 (二) - 開發環境建置
             </a>
             <p class="text-gray">
                 <small>
-                    <span>發表於 2020-03-22，</span>
-                    <span class="hidden-xs">全文760字，</span>
-                    <span>約3分鐘看完</span>
+                    <span>發表於 2020-03-25，</span>
+                    <span class="hidden-xs">全文1443字，</span>
+                    <span>約5分鐘看完</span>
                     
                     <span>
-                        <a href="/post/series/S02_rails/C01_rails_starter/series-rails-starter-01.html#disqus_thread">
+                        <a href="/post/series/S02_rails/C01_rails_starter/series-rails-starter-02.html#disqus_thread">
                             <!--留言-->
                         </a>
                     </span>
@@ -270,7 +419,7 @@
         <div class="post-preview">
     <div class="post-img" 
         style="background-image: url('/post/default.png'); cursor: pointer" 
-        onClick="location.href='/post/link.html'"></div>
+        onClick="location.href='/post/about.html'"></div>
     <div class="post-info">
         <div class="post-info-center">
             <div class="hidden-xs">
@@ -284,17 +433,17 @@
                 
                 
             </div>
-            <a href="/post/link.html" class="title">
-                連結
+            <a href="/post/about.html" class="title">
+                關於
             </a>
             <p class="text-gray">
                 <small>
                     <span>發表於 2020-03-01，</span>
-                    <span class="hidden-xs">全文526字，</span>
-                    <span>約2分鐘看完</span>
+                    <span class="hidden-xs">全文825字，</span>
+                    <span>約3分鐘看完</span>
                     
                     <span>
-                        <a href="/post/link.html#disqus_thread">
+                        <a href="/post/about.html#disqus_thread">
                             <!--留言-->
                         </a>
                     </span>
@@ -437,13 +586,36 @@
         
         
         <section class="gkt-sidebar-content box-shadow">
-            <strong>連結</strong>
-            <div style="line-height: 1.46;">
-                <!-- Table of Contents -->
+            <strong>Rails 初學筆記</strong>
+            <ul>
+                
+                <li>
+                    <a href="/post/series/S02_rails/C01_rails_starter/series-rails-starter-01.html"
+                        class=""> (一) 前言</a>
+                    
+                </li>
+                
+                <li>
+                    <a href="/post/series/S02_rails/C01_rails_starter/series-rails-starter-02.html"
+                        class=""> (二) 開發環境建置</a>
+                    
+                </li>
+                
+                <li>
+                    <a href="/post/series/S02_rails/C01_rails_starter/series-rails-starter-03.html"
+                        class=""> (三) Ruby 基礎說明</a>
+                    
+                </li>
+                
+                <li>
+                    <a href="/post/series/S02_rails/C01_rails_starter/series-rails-starter-04.html"
+                        class="gkt-sidebar-active"> (四) Rails 基本概念</a>
+                    
+                    <!-- Table of Contents -->
 <div id="sidebar-toc">
   <!-- TOC  -->
   
-  <ol class="toc-nav"><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#Rails"><span class="toc-nav-text">Rails</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#Vue"><span class="toc-nav-text">Vue</span></a></li></ol>
+  <ol class="toc-nav"><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#何謂-Rails"><span class="toc-nav-text">何謂 Rails</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#何謂網頁框架"><span class="toc-nav-text">何謂網頁框架</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#Rails-網頁流程"><span class="toc-nav-text">Rails 網頁流程</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#Rails-開發流程"><span class="toc-nav-text">Rails 開發流程</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#Rails-開發流程範例"><span class="toc-nav-text">Rails 開發流程範例</span></a></li></ol>
   
 </div>
 
@@ -482,7 +654,10 @@
     })
   })();
 </script>
-            </div>
+                    
+                </li>
+                
+            </ul>
         </section>
         
         
@@ -500,18 +675,6 @@
                 
                 <li>
                     <a href="/post/series/S02_rails/C01_rails_starter/series-rails-starter-02.html">Rails 初學筆記 (二) - 開發環境建置</a>
-                </li>
-                
-                <li>
-                    <a href="/post/series/S02_rails/C01_rails_starter/series-rails-starter-01.html">Rails 初學筆記 (一) - 前言</a>
-                </li>
-                
-                <li>
-                    <a href="/post/link.html">連結</a>
-                </li>
-                
-                <li>
-                    <a href="/post/about.html">關於</a>
                 </li>
                 
             </ul>

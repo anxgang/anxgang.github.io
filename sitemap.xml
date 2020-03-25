@@ -2,23 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://anxgang.github.io/post/link.html</loc>
+    <loc>https://anxgang.github.io/post/series/S02_rails/C01_rails_starter/series-rails-starter-04.html</loc>
     
-    <lastmod>2020-03-24T22:54:03.678Z</lastmod>
+    <lastmod>2020-03-25T06:39:41.596Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://anxgang.github.io/post/series/S02_rails/C01_rails_starter/series-rails-starter-02.html</loc>
+    <loc>https://anxgang.github.io/post/series/S02_rails/C01_rails_starter/series-rails-starter-03.html</loc>
     
-    <lastmod>2020-03-24T22:50:08.874Z</lastmod>
+    <lastmod>2020-03-25T03:06:52.956Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://anxgang.github.io/post/series/S02_rails/C01_rails_starter/series-rails-starter-01.html</loc>
     
-    <lastmod>2020-03-24T22:50:02.541Z</lastmod>
+    <lastmod>2020-03-25T03:04:05.241Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://anxgang.github.io/post/series/S02_rails/C01_rails_starter/series-rails-starter-02.html</loc>
+    
+    <lastmod>2020-03-25T00:03:54.415Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://anxgang.github.io/post/link.html</loc>
+    
+    <lastmod>2020-03-24T22:54:03.678Z</lastmod>
     
   </url>
   
