@@ -452,6 +452,7 @@ img:hover, .post-preview:hover {
 }
 
 .u-arrow-wrapper {
+  display: none;
   position: fixed;
   width: 0;
   left: 0;
